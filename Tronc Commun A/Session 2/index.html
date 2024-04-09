@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 2 JS</title>
+</head>
+    <h1>Welcome to JS Session 2</h1>
+    <img id="lightBulb" src="lightoff.gif" alt="">
+    <div>
+        <button onclick="lightOn()">Turn Light On</button>
+        <button onclick="lightOff()">Turn Light Off</button>
+    </div>
+    <hr>
+    <p>What's your name?</p>
+    <p id="name"></p>
+    <button onclick="document.getElementById('name').innerHTML='My name is Achraf'">Show your Name</button>
+    <script>
+        function lightOn(){
+            document.getElementById('lightBulb').src='lighton.gif'
+        }
+        function lightOff(){
+            document.getElementById('lightBulb').src='lightoff.gif'
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

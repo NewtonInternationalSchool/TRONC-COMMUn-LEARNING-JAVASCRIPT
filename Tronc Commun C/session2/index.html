@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JS session 2</title>
+</head>
+<body>
+    <h1>Welcome to JS Session 2</h1>
+    <p>Hello what is your name?</p>
+    <p id="yourName"></p>
+    <button onclick="displayName()">SHOW ME YOUR NAME</button>
+    <div>
+    <img id="lightBulb" src="images/lightoff.gif" alt="">
+    <div>
+        <button onclick="document.getElementById('lightBulb').src='images/lighton.gif'">Turn Lights on</button>
+        <button onclick="document.getElementById('lightBulb').src='images/lightoff.gif'">Turn Lights off</button>
+    </div>
+</div>
+    <script>
+    function displayName(){    
+        document.getElementById('yourName').innerHTML = 'My name is Achraf Sendid';
+    }
+    </script>
+</body>
+</html>

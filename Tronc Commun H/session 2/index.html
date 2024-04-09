@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Session 2</title>
+</head>
+<body>
+    <h1>Welcome to JS Session 2</h1>
+    <div>
+        <p>What's your name?</p>
+        <p id="name"></p>
+        <button onclick="document.getElementById('name').innerHTML='My name is Achraf'">Show Name</button>
+    </div>
+    <hr>
+    <img id="lightBulb" src="lightoff.gif" alt="">
+    <div>
+        <button onclick="lightsOn()">Turn Light On</button>
+        <button onclick="lightsOff()">Turn Light Off</button>
+    </div>
+    <script>
+        function lightsOn(){
+            document.getElementById('lightBulb').src='lighton.gif'
+        }
+        function lightsOff(){
+            document.getElementById('lightBulb').src='lightoff.gif'
+        }
+    </script>
+</body>
+</html>
