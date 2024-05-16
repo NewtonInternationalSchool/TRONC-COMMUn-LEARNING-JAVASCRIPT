@@ -50,7 +50,6 @@ console.log(h2)
 let bmi = person.weight / h2
 console.log(bmi)
 
-
 //2) Arrays
 
 //3) Functions

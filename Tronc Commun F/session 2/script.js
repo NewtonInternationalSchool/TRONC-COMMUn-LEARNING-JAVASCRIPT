@@ -34,7 +34,8 @@ let person = {
     lastName : 'Sendid',
     age : 33,
     weight : 76,
-    height : 1.78
+    height : 1.78,
+    idNumber : AA86789,
 }
 console.log(person.firstName);
 //Formula to calculate BMI = (height * height)/weight
